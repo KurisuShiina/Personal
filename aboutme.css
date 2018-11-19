@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+li{
+    list-style: none;
+    text-align: end;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top{
+    padding: 8px 0;
+    border-bottom: 1px solid #d6dee5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    -webkit-display: flex;
+    width: 80%;
+    min-height:99px;
+    flex-direction: column;
+    justify-content: space-between;
+    -webkit-justify-content:space-between;
+    margin: 0 auto;
+    background-color:#fcf7f4;
+    flex-wrap:wrap;
+}
+
+.logo-bar{
+    display: flex;
+    -webkit-display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    -webkit-justify-content:space-between;
+    overflow: hidden;
+}
+
+.logo{
+    display: block;
+    height: 240px;
+    width: 500px;
+    background-image: url(image/l4.jpg);
+    margin: 5px 0 0 5px;
+}
+
+.words{
+    margin-top: 20px;
+    margin-right: 50px;
+    height: 50px;
+}
+
+.wordlist{
+    align-content: center;
+    display: flex;   
+}
+
+.paragraph{
+    text-align: center;
+    width: 100px;
+    margin-left: 30px;
+    background: #f9eddd;
+    padding: 15px;
+}
+
+.paragraph:hover{
+    background: #ebdfc9;
+    -webkit-transition:all 0.5s ease 0s;
+    transition:all 1s ease 0s;
+}
+
+.paragraph a{
+    font-size: 25px;
+    color: #e4935c;
+    font-family: 'Bookman Old Style', serif;
+}
+
+.logo-bottom{
+    display: flex;
+    -webkit-display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    -webkit-justify-content:space-between;
+    overflow: hidden;
+}
+
+.leader .wordlist{
+    margin-bottom: 7px;
+}
+
+.per-leader{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100px;
+    padding-top: 8px;
+    margin-left: 24px;
+}
+
+.per-leader a{
+    font-size: 14px;
+    color: #9a6533;
+}
+
+.per-leader a:hover{
+    color: #e4935c;
+}
+
+.paragraph-bottom{
+    margin: 0 40px 10px 0;
+}
+.paragraph-bottom a{
+    font-size: 18px;
+    color: #b25b2e;
+    font-family: 'Courier New', Courier, monospace;
+    white-space:nowrap;
+}
+
+.content{
+    padding: 5px 0;
+}
+
+.logoMid{
+    display: block;
+    height: 420px;
+    width: 80%;
+    background-image: url(image/z5.jpg);
+    margin: 0 auto 5px;
+}
+
+.content-item{
+    width: 80%;
+    min-height:800px;
+    margin: 0 auto;
+    background-color:#fcf7f4;
+    border-bottom: 1px solid #d6dee5;
+}
+
+.music-bar{ 
+    display: block;
+    height: 120px;
+    width: 100%;
+    background-image: url(image/z6.jpg);
+}
+
+.musicWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.musicColumn{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.musicItem{
+    height: 340px;
+    width: 50%;
+    color: #9a6533;
+    font-family: 'Courier New', Courier, monospace;
+    white-space:nowrap;
+    line-height: 43px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.img-s{
+    display: block;
+    height: 340px;
+    background-image: url(image/z10.jpg);
+}
+
+.img-s:hover{
+    background-image: url(image/z11.jpg);
+    -webkit-transition:all 0.8s ease 0s;
+    transition:all 1s ease 0s;
+}
+
+.img-o{
+    display: block;
+    height: 340px;
+    background-image: url(image/z13.jpg);
+}
+
+.img-o:hover{
+    background-image: url(image/z14.jpg);
+    -webkit-transition:all 0.8s ease 0s;
+    transition:all 1s ease 0s;
+}
+
+.anime-bar{ 
+    display: block;
+    height: 120px;
+    width: 100%;
+    background-image: url(image/z9.jpg);
+}
+.animeWrapper{
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    height: 680px;
+    /* background-image: url(image/z18.jpg); */
+}
+
+.animeItem{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #9a6533;
+    font-family: 'Courier New', Courier, monospace;
+    white-space:nowrap;
+    line-height: 38px;
+    text-align: center;
+    font-size: 20px;
+    overflow: hidden;
+}
+.animeOne{
+    grid-column: 3 / 6;
+    background-image: url(image/z19.jpg);
+}
+
+.animeTwo{
+    grid-column: 7 / 10;
+    background-image: url(image/z20.jpg);
+}
+
+.animeThree{
+    grid-column: 11 / 14;
+    background-image: url(image/z22.jpg);
+}
+
+.movie-bar{ 
+    display: block;
+    height: 120px;
+    width: 100%;
+    background-image: url(image/z8.jpg);
+}
+
+.movieWrapper{
+    height: 680px;
+    background-image: url(image/z23.jpg);
+    color: #366d50;
+    font-family: 'Courier New', Courier, monospace;
+    white-space:nowrap;
+    line-height: 38px;
+    text-align: left;
+    font-size: 26px;
+    overflow: hidden;
+}
+
+.ItemContent{
+   padding: 70px 50px;
+  
+}
+
+.ItemContent h1{
+    font-size: 50px;
+}
+
+.ItemContent h1:hover{
+    color:#466792;
+    -webkit-transition:all 3s ease 0s;
+    transition:all 3s ease 0s;
+}
+
+.movieL{
+    text-align: left;
+    padding: 30px 54px;
+}
+
+.game-bar{ 
+    display: block;
+    height: 120px;
+    width: 100%;
+    background-image: url(image/z7.jpg);
+}
+
+.gameWrapper{
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    height: 680px;
+}
+
+.gameItem{
+    color: #9a6533;
+    font-family: 'Courier New', Courier, monospace;
+    white-space:nowrap;
+    line-height: 33px;
+    text-align: center;
+    font-size: 20px;
+    overflow: hidden;
+    background: #feceaa;
+}
+
+.gameOne{
+    grid-row: 1 / 4;
+    grid-column: 3 / 6;
+    background-image: url(image/z24.jpg);
+}
+
+.gameOneW{
+    grid-row: 1 / 4;
+    grid-column: 7 / 13;
+   
+}
+
+.gameTwo{
+    grid-row: 5 / 8;
+    grid-column: 3 / 6;
+    background-image: url(image/z25.jpg);
+}
+
+.gameTwoW{
+    grid-row: 5 / 8;
+    grid-column: 7 / 13;
+   
+}
+
+.gameThree{
+    grid-row: 9 / 12;
+    grid-column: 3 / 6;
+    background-image: url(image/z26.jpg);
+}
+
+.gameThreeW{
+    grid-row: 9 / 12;
+    grid-column: 7 / 13;
+   
+}
+
+.footer-bar{
+    display: block;
+    height: 380px;
+    width: 80%;
+    margin: 0 auto;
+    background-image: url(image/z15.jpg);
+}
