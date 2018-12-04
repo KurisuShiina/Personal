@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logo{
+    display: block;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url(image/l4.jpg);
+    background-repeat: no-repeat;
+}
+
+.right1::after{
+    content:"";
+    clear:both;
+    display:block;
+}
+
+.paragraph{
+    text-align: center;
+    width: 115px;
+    margin-left: 25px;
+    margin-top: 20px;
+    background: #f9eddd;
+}
+
+.paragraph:hover{
+    background: #ebdfc9;
+    -webkit-transition:all 0.5s ease 0s;
+    transition:all 1s ease 0s;
+}
+
+.paragraph a{
+    color: #e4935c;
+    font-family: 'Bookman Old Style', serif;
+}
+
+.nav-extended{
+    margin-bottom:3px; 
+}
+
+h5,
+h6{
+    color:#9a6533;
+    text-align: center;
+}
+h1,
+h2,
+h3,
+h4{
+    color:#9a6533;
+}
+
+.card-title{
+    color:#dd2c00 !important;
+}
